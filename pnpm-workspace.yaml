@@ -1,2 +1,6 @@
+autoInstallPeers: false
+
 allowBuilds:
   esbuild: true
+minimumReleaseAgeExclude:
+  - prettier@3.10.1
