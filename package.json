@@ -1,12 +1,23 @@
 {
-  "name": "@k11/configs",
-  "version": "0.1.1",
-  "description": "Configurations",
+  "name": "xi-configs",
+  "version": "0.1.0",
+  "description": "Shared ESLint, Prettier, and TypeScript configurations",
   "author": "Kevin Izuchukwu",
   "license": "ISC",
   "repository": {
-    "url": "git://github.com/kevinand11/configs.git"
+    "type": "git",
+    "url": "git+https://github.com/andthexi/configs.git"
   },
+  "homepage": "https://github.com/andthexi/configs#readme",
+  "bugs": {
+    "url": "https://github.com/andthexi/configs/issues"
+  },
+  "files": [
+    "eslint",
+    "prettier",
+    "tsconfig",
+    "README.md"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
