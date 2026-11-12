@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Vite React application",
+  "extends": "./vite.json",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}

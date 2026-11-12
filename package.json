@@ -13,9 +13,14 @@
   },
   "exports": {
     "./prettier": "./prettier/index.json",
-    "./tsconfig/lib": "./tsconfig/lib.json",
+    "./tsconfig/node-app": "./tsconfig/node-app.json",
+    "./tsconfig/node-app-native": "./tsconfig/node-app-native.json",
+    "./tsconfig/node-library": "./tsconfig/node-library.json",
+    "./tsconfig/node-library-tsc": "./tsconfig/node-library-tsc.json",
+    "./tsconfig/node-library-ts-source": "./tsconfig/node-library-ts-source.json",
     "./tsconfig/vite": "./tsconfig/vite.json",
-    "./tsconfig/node": "./tsconfig/node.json",
+    "./tsconfig/vite-vue": "./tsconfig/vite-vue.json",
+    "./tsconfig/vite-react": "./tsconfig/vite-react.json",
     "./eslint/base": "./eslint/base.mjs",
     "./eslint/vue": "./eslint/vue.mjs"
   },

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Vite Vue application",
+  "extends": "./vite.json",
+  "compilerOptions": {
+    "jsx": "Preserve"
+  }
+}
