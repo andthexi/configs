@@ -1,3 +1,4 @@
+import prettier from "eslint-config-prettier/flat";
 import vuePlugin from "eslint-plugin-vue";
 
 import browserJs from "./browser-js.mjs";
@@ -11,17 +12,6 @@ export const vueOverrides = {
     "vue/attribute-hyphenation": ["error", "never"],
     "vue/v-on-event-hyphenation": ["error", "never"],
     "vue/no-useless-v-bind": ["error"],
-    "vue/html-indent": [
-      "error",
-      "tab",
-      {
-        attribute: 1,
-        baseIndent: 1,
-        closeBracket: 0,
-        alignAttributesVertically: true,
-        ignores: [],
-      },
-    ],
     "vue/component-name-in-template-casing": [
       "error",
       "PascalCase",
@@ -44,4 +34,5 @@ export default [
   { ignores: ["**/.nuxt/**", "**/.output/**"] },
   ...vueRecommended,
   vueOverrides,
+  prettier,
 ];
